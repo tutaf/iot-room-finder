@@ -11,6 +11,5 @@
 @dgmltn за приложение https://github.com/dgmltn/Android-UPnP-Browser
 
 # Other/Другое
-App for controling garland - https://github.com/tutaf/rgbmobile
+App for controling garland / Приложение для управления гирляндой - https://github.com/tutaf/rgbmobile
 
-Приложение для управления гирляндой - https://github.com/tutaf/rgbmobile
