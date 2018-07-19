@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Iot room finder</string>
+=======
+    <string name="app_name">iot room finder</string>
+>>>>>>> 1d30f810566b2c3ffecd5e1b2e679665abdf7b70
 </resources>
