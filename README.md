@@ -12,3 +12,7 @@
 
 # Other/Другое
 App for controling garland / Приложение для управления гирляндой - https://github.com/tutaf/rgbmobile
+
+# Support developer/Поддержать разработчика
+You can support me [here](https://www.paypal.me/OlegCernisov)
+Вы можете поддержать меня [здесь](https://www.paypal.me/OlegCernisov) 
