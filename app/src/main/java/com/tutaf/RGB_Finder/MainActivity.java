@@ -9,6 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.Toast;
 
 import butterknife.Bind;
@@ -69,13 +71,28 @@ public class MainActivity extends AppCompatActivity {
                         if (device.getServer().contains("Arduino")) {
                             if (!mWasOpened) {
                                 String ip = device.getHost();
-                                Intent sendIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://" + ip + "/"));
+                                /*Intent sendIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://" + ip + "/"));
                                 Intent chooser = Intent.createChooser(sendIntent, "Choose Your Browser");
+
                                 mWasOpened = true;
                                 if (sendIntent.resolveActivity(getPackageManager()) != null) {
                                     startActivity(chooser);
                                     finishAffinity();
-                                }
+                                }*/
+                                /*WebView mywebview = findViewById(R.id.webview);
+                                mywebview.setVisibility(View.VISIBLE);
+                                mywebview.loadUrl("http://" + ip + "/");
+
+                                WebSettings webSettings = mywebview.getSettings();
+                                webSettings.setBuiltInZoomControls(true);
+                                webSettings.setJavaScriptEnabled(true);*/
+
+                                Intent intent = new
+                                        Intent("com.tutaf.RGB_Finger.Browser");
+                                intent.setData(Uri.parse("http://" + ip + "/"));
+                                startActivity(intent);
+
+                                mWasOpened = true;
                             }
                         }
                     }
