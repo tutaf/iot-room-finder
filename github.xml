@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="d51e6751-32b8-48bd-b058-85f8be4d9ed3" name="tutaf">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="tutaf" />
     <option name="AUTH_TYPE" value="BASIC" />
